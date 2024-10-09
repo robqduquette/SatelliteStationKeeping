@@ -88,8 +88,8 @@ scatter(ye_total(:,2), ye_total(:,1)-target.r,'or')
 scatter(along_track(1), x(1), 'og')
 
 grid on
-xlabel('Along Track (m)')
-ylabel('Relative Radial (m)')
+xlabel('Along Track Error (m)')
+ylabel('SMA Error (m)')
 title('Relative Satellite motion during station keeping')
 
 % time graph
